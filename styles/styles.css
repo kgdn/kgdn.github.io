@@ -1,0 +1,14 @@
+body {
+    margin: 0 auto;
+    max-width: 900px;
+    font-family: sans-serif;
+}
+
+nav {
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 10px;
+}
