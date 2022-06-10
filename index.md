@@ -8,5 +8,5 @@ layout: home
 
 ## Contact
 You can contact me on the following channels:
-- Email [kgdn@firemail.cc](mailto:Kieran Gordon <kgdn@firemail.cc>)
+- Email: [kgdn@firemail.cc](mailto:Kieran Gordon <kgdn@firemail.cc>)
 - [\[matrix\]](https://matrix.org/): [@kgdn28:fedora.im](https://matrix.to/#/@kgdn28:fedora.im)
