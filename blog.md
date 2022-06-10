@@ -5,5 +5,3 @@ layout: posts
 ---
 
 {{ page.description }}
-
-## Blog Posts
