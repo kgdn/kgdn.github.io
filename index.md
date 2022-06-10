@@ -1,4 +1,6 @@
 ---
 title: kgdn
 description: Welcome to my blog!
-layout: post
+layout: home
+---
+## Hello, world!
