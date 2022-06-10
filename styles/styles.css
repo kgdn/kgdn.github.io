@@ -12,3 +12,8 @@ nav li {
     display: inline-block;
     margin: 0 10px;
 }
+
+footer {
+    margin: 0 auto;
+    text-align: center;
+}
