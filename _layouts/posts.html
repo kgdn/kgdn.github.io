@@ -1,10 +1,10 @@
 ---
 layout: default
 title: Blog
+description: Read about my thoughts on development, technology, and life.
 ---
-<ul class="posts">
+{{ page.description }}
 {% for post in site.posts %}
 <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{
 post.title }}</a></li>
 {% endfor %}
-</ul>
