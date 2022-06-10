@@ -3,8 +3,8 @@ title: kgdn
 description: Welcome to the front page of my GitHub blog!
 layout: home
 ---
-## Hello, world!
-{{ page.description }} I would have preferred to have self-hosted this blog, but I don't have the time, money and resources to do so. So GitHub will do!
+## You've reached the website of Kieran Gordon!
+{{ page.description }} I would have preferred to have self-hosted this blog, but I don't have the time, money and resources to do so. So GitHub will do! Head over to the About page to learn more about me, and to contact if you have any questions or comments.
 
 ## Contact
 You can contact me on the following channels:
