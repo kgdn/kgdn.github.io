@@ -5,4 +5,5 @@ layout: default
 <p><b>{{ page.date | date_to_string }}</b> - By {{ page.author }}</p>
 <i>"{{ page.description }}"</i>
 {{ content }}
+<p><b>Tags:</b> <span>{{ page.tags }}</span>.</p>
 {% include utterances.html %}
