@@ -4,7 +4,7 @@ description: "My interests and hobbies."
 layout: default
 ---
 
-# Technology
+### Technology
 - GNU/Linux
 - Fedora Linux
 - Free/Open Source Software
@@ -17,7 +17,7 @@ layout: default
 - Machine Learning
 - Networking
 
-# Music
+### Music
 - MF Doom
 - Kanye West
 - Radiohead
