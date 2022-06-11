@@ -17,3 +17,11 @@ footer {
     margin: 0 auto;
     text-align: center;
 }
+
+.nopoint {
+    list-style-type: none;
+}
+
+.nopoint span {
+    color: gray;
+}

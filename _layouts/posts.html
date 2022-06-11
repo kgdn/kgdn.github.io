@@ -3,13 +3,13 @@ layout: default
 ---
 <p>If for whatever reason you want to keep up to date with the latest posts, you can subscribe to the RSS feed <a
         href="/feed.xml">here</a>.</p>
-<ul>
+<ul class="nopoint">
     {% for post in site.posts %}
     <li>
         <a href="{{ post.url }}" title="{{ post.title }}"><b>{{
-            post.title }}</b> by <b>{{ post.author }}</b></a>
+            post.title }}</b></a>
             <div>
-                <span>{{ post.date | date_to_string }}</span>
+                <span>{{ post.author}} - {{ post.date | date_to_string }}</span>
             </div>
     </li>
     <p>{{ post.description }}</p>
