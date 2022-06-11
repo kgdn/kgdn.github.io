@@ -6,7 +6,7 @@ description: "A quick and simple test of LaTeX."
 author: "Kieran Gordon"
 ---
 
-This is a test of a \LaTeX\ file! So cool.
+This is a test of a $$ \LaTeX\ $$ file! So cool.
 $$ left( \begin{array}{cc} 2\tau & 7\phi-frac5{12} \\
     3\psi & \frac{\pi}8 \end{array} \right)
     \left( \begin{array}{c} x \\ y \end{array} \right)

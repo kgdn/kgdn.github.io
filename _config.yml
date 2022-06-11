@@ -3,5 +3,3 @@ markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
 plugins:
   - jekyll-feed
-  - jekyll-latex
-  - jekyl-last-modified-at
