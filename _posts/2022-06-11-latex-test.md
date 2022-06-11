@@ -6,12 +6,5 @@ description: "A quick and simple test of LaTeX."
 author: "Kieran Gordon"
 ---
 
-This is a test of a $$ \LaTeX\ $$ file! So cool.
-$$ left( \begin{array}{cc} 2\tau & 7\phi-frac5{12} \\
-    3\psi & \frac{\pi}8 \end{array} \right)
-    \left( \begin{array}{c} x \\ y \end{array} \right)
-    \mbox{~and~} \left[ \begin{array}{cc|r}
-    3 & 4 & 5 \\ 1 & 3 & 729 \end{array} \right]
-$$
-
-And that was some maths.
+This is a test of $$ \latex $$ rendering in my blog.
+Don't know why I'm adding this, but ah well.
