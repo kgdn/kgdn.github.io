@@ -4,6 +4,7 @@ title: "Beginnings"
 date: "2022-06-10"
 description: "The first blog post on this website."
 author: "Kieran Gordon"
+tags: ["Life"]
 ---
 Let's get started! So I'll try make this my first, actual post. If anyone was there to see my original two posts, no you weren't. So, let's try this again.
 
