@@ -28,7 +28,6 @@ footer {
 }
 
 .nav {
-  font-size: 14px;
   display: block;
   width: auto;
   overflow: hidden;
@@ -42,7 +41,6 @@ footer {
 }
 
 .nav .next {
-  /* always right-align the next link */
   float: right;
   text-align: right;
 }
