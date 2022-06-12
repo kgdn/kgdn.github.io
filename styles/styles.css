@@ -42,5 +42,7 @@ footer {
 }
 
 .nav .next {
+  /* always right-align the next link */
+  float: right;
   text-align: right;
 }
