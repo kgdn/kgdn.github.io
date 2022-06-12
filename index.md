@@ -10,3 +10,4 @@ layout: home
 You can contact me on the following channels:
 - Email: [kgdn@firemail.cc](mailto:kgdn@firemail.cc) ([PGP Key](kgdn-gpg.txt))
 - [\[matrix\]](https://matrix.org/): [@kgdn28:fedora.im](https://matrix.to/#/@kgdn28:fedora.im)
+- Mastodon: [@kgdn@mastodon.social](https://mastodon.social/web/@kgdn)
