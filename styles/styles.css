@@ -2,6 +2,8 @@ body {
   margin: 0 auto;
   max-width: 800px;
   font-family: sans-serif;
+  background-color: white;
+  color: black
 }
 
 nav {
@@ -43,4 +45,27 @@ footer {
 .nav .next {
   float: right;
   text-align: right;
+}
+
+.top-header h1 {
+  /* display on the left */
+  float: left;
+  margin: 0;
+}
+
+.top-header button {
+  /* display right of the h1 */
+  float: right;
+  margin: 0;
+}
+
+/* Borrowed from W3Schools */
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+
+.dark-mode-button {
+  background-color: transparent;
+  border: none;
 }
