@@ -29,6 +29,10 @@ body {
   --link-color-visited: var(--red);
 }
 
+body a {
+  color: var(--link-color);
+}
+
 a:visited {
   color: var(--link-color-visited);
 }
