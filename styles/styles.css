@@ -24,6 +24,12 @@ nav {
 nav li {
   display: inline-block;
   margin: 0 10px;
+  padding: 5px 0;
+}
+
+nav h1 {
+  float: left;
+  margin: auto;
 }
 
 nav a:link {
@@ -33,6 +39,10 @@ nav a:link {
 
 nav a:visited {
   color: black;
+}
+
+nav a:hover {
+  text-decoration: underline;
 }
 
 footer {
@@ -65,9 +75,4 @@ footer {
 .nav .next {
   float: right;
   text-align: right;
-}
-
-.top-header h1 {
-  float: left;
-  margin: 0;
 }
