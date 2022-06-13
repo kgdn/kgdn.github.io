@@ -1,6 +1,6 @@
 // create dark mode toggle and store in local storage
-const darkModeButton = document.getElementById("dark-mode-button");
 let darkMode = localStorage.getItem("darkMode");
+const darkModeButton = document.querySelector("#dark-mode-button");
 
 const enableDarkMode = () => {
     body.classList.add("dark-mode");
@@ -10,10 +10,6 @@ const enableDarkMode = () => {
 const disableDarkMode = () => {
     body.classList.remove("dark-mode");
     localStorage.setItem("darkMode", null);
-}
-
-if (darkMode === "enabled") {
-    enableDarkMode();
 }
 
 darkModeButton.addEventListener("click", () => {
