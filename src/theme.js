@@ -11,11 +11,11 @@ themeSwitcher.onclick = () => {
     if (body.classList.contains('dark')) {
         body.classList.replace('dark', 'light');
         localStorage.setItem('theme', 'light');
-        body.style.transition = 'background-color 0.5s ease-in-out';
+        body.style.transition = 'background-color 0.5s ease-in-out color 1s ease-in-out'; 
     } else {
         body.classList.replace('light', 'dark');
         localStorage.setItem('theme', 'dark');
-        body.style.transition = 'background-color 0.5s ease-in-out';
+        body.style.transition = 'background-color 0.5s ease-in-out color 1s ease-in-out'; 
     }
 };
 
