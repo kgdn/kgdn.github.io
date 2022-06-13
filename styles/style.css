@@ -13,7 +13,6 @@ body {
   font-family: sans-serif;
   background-color: var(--bg);
   color: var(--text);
-  transition: background-color 0.5s ease;
 }
 
 .light {
