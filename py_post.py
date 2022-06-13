@@ -18,7 +18,6 @@
 
 from datetime import date
 import os
-import webbrowser
 
 date = date.today()
 
