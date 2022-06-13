@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Miniature Makeover"
-date: "2022-06-13"
+date: "2022-06-13 18∶05"
 description: "I told you there'd be another changelog!"
 author: "Kieran Gordon"
 tags: ["Changelog"]
