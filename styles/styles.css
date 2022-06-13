@@ -28,6 +28,11 @@ nav li {
 
 nav a:link {
   text-decoration: none;
+  color: black;
+}
+
+nav a:visited {
+  color: black;
 }
 
 footer {
