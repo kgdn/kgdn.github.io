@@ -1,16 +1,33 @@
+
 :root {
-  --bg-color-main: #white;
-  --text-color: #black;
-  --link-color: #0000ee;
-  --link-color-visited: #0000ee;
+  --black: #000;
+  --white: #fff;
+  --gray: #ccc;
+  --gray-dark: #333;
+  --gray-light: #eee;
 }
 
 body {
   margin: 0 auto;
   max-width: 800px;
   font-family: sans-serif;
-  background-color: var(--bg-color-main);
-  color: var(--text-color);
+  background-color: var(--bg);
+  color: var(--text);
+  transition: background 500ms ease-in-out, color 1000ms ease-in-out;
+}
+
+.light {
+  --bg: var(--white);
+  --text: var(--black);
+  --link-color: #0000ee;
+  --link-color-visited: #0000ee;
+}
+
+.dark {
+  --bg: var(--black);
+  --text: var(--white);
+  --link-color: #0000ee;
+  --link-color-visited: #0000ee;
 }
 
 a:visited {
@@ -35,15 +52,19 @@ nav h1 {
 
 nav a:link {
   text-decoration: none;
-  color: black;
+  color: var(--text-color);
 }
 
 nav a:visited {
-  color: black;
+  color: var(--text-color)
 }
 
 nav a:hover {
   text-decoration: underline;
+}
+
+#theme-switcher {
+  font-size: large;
 }
 
 footer {
