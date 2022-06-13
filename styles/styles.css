@@ -1,7 +1,20 @@
+:root {
+  --bg-color-main: #white;
+  --text-color: #black;
+  --link-color: #0000ee;
+  --link-color-visited: #0000ee;
+}
+
 body {
   margin: 0 auto;
   max-width: 800px;
   font-family: sans-serif;
+  background-color: var(--bg-color-main);
+  color: var(--text-color);
+}
+
+a:visited {
+  color: var(--link-color-visited);
 }
 
 nav {
@@ -11,6 +24,10 @@ nav {
 nav li {
   display: inline-block;
   margin: 0 10px;
+}
+
+nav a:link {
+  text-decoration: none;
 }
 
 footer {
