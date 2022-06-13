@@ -7,7 +7,7 @@ body {
 }
 
 nav {
-  text-align: center;
+  text-align: right;
 }
 
 nav li {
@@ -68,4 +68,5 @@ footer {
 .dark-mode-button {
   background-color: transparent;
   border: none;
+  font-size: large;
 }
