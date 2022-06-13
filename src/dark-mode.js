@@ -1,5 +1,5 @@
 // create dark mode toggle and store in local storage
-const darkModeButton = document.getElementById("dark-mode-button");
+const darkModeButton = document.getElementsByClassName("dark-mode-button");
 
 darkModeButton.addEventListener("click", () => {
   const darkMode = localStorage.getItem("darkMode");
