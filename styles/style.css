@@ -100,4 +100,5 @@ footer {
 .nav .next {
   float: right;
   text-align: right;
+  color: var(--text);
 }
