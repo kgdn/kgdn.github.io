@@ -1,17 +1,14 @@
 ---
 layout: default
 ---
-<p>This page here is dedicated to a list of my writeups, including articles, blog posts, documentation and my thoughts and feelings about various topics. Hopefully you'll find them interesting, and if you have any feedback or questions then please don't be afraid to leave a comment in the respective post!</p>
-<p>If for whatever reason you want to keep up to date with the latest posts, you can subscribe to the RSS feed <a href="/feed.xml">here</a>.</p>
-<p>Overwhelmed by the amount of posts? You can also sort by tag <a href="/tags">here</a>.</p>
 <ul class="nopoint">
     {% for post in site.posts %}
     <li>
         <a href="{{ post.url }}" title="{{ post.title }}"><b>{{
-            post.title }}</b></a>
-            <div>
-                <span>{{ post.author}} - {{ post.date | date_to_string }}</span>
-            </div>
+                post.title }}</b></a>
+        <div>
+            <span>{{ post.author}} - {{ post.date | date_to_string }}</span>
+        </div>
     </li>
     <p>{{ post.description }}</p>
     {% endfor %}
