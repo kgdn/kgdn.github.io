@@ -7,7 +7,7 @@ layout: default
     <li>
         <a href="{{ repository.html_url }}" title="{{ repository.name }}"><b>{{ repository.name }}</b></a>
         <div>
-            <span>{{ repository.owner }} - {{ repository.build_revision }}</span>
+            <span>{{ repository.owner }} - {{ repository.license.name }}</span>
         </div>
     </li>
     <p>{{ repository.description }}</p>
