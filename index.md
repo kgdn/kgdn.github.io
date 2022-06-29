@@ -8,6 +8,6 @@ layout: home
 
 ## Contact
 You can contact me on the following channels:
-- Email: [kgdn@firemail.cc](mailto:kgdn@firemail.cc) ([PGP Key](kgdn-gpg.txt))
+- University/Academic Email: [kjg2000@hw.ac.uk](mailto:kjg2000@hw.ac.uk) ([PGP Key](kjg-gpg.txt))
 - [\[matrix\]](https://matrix.org/): [@kgdn28:fedora.im](https://matrix.to/#/@kgdn28:fedora.im)
 - Mastodon: [@kgdn@mastodon.social](https://mastodon.social/web/@kgdn)
