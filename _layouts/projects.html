@@ -8,7 +8,7 @@ layout: default
         <a href="{{ repository.html_url }}" title="{{ repository.name }}"><b>{{ repository.name }}</b></a>
         <div>
             {% if repository.license %}
-                <span>{{ repository.language }} - {{ repository.license.name }}</span>
+                <span>{{ repository.language }} - {{ repository.project_title }}</span>
             {% else %}
                 <span>{{ repository.language }} - No license</span>
             {% endif %}
