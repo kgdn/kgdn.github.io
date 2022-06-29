@@ -14,6 +14,11 @@ layout: default
             {% endif %}
         </div>
     </li>
-    <p>{{ repository.description }}</p>
+    {% if repository.description %}
+        <p>{{ repository.description }}</p>
+    {% else %}
+        <p>No description.</p>
+    {% endif %}
+    {% endfor %}
     {% endfor %}
 </ul>
