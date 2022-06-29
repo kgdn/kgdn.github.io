@@ -4,7 +4,12 @@ layout: default
 {{ content }}
 <ul class="nopoint">
     {% for repository in site.github.public_repositories %}
-    * [{{ repository.name }}]({{ repository.html_url }})
+    <li>
+        <a href="{{ repository.html_url }}" title="{{ repository.name }}"><b>{{ repository.name }}</b></a>
+        <div>
+            <span>{{ repository.owner }} - {{ repository.build_revision }}</span>
+        </div>
+    </li>
+    <p>{{ repository.description }}</p>
     {% endfor %}
-
 </ul>
