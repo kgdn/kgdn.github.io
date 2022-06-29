@@ -5,10 +5,10 @@ layout: default
 <ul class="nopoint">
     {% for repository in site.github.public_repositories %}
     <li>
-        <a href="{{ repository.html_url }}" title="{{ repository.name }}"><b>{{ repository.name }}</b></a>
+        <a href="{{ repository.html_url }}" title="{{ repository.name }}"><b>{{ site.title }}</b></a>
         <div>
             {% if repository.license %}
-                <span>{{ repository.language }} - {{ repository.project_title }}</span>
+                <span>{{ repository.language }} - {{ repository.license.name }}</span>
             {% else %}
                 <span>{{ repository.language }} - No license</span>
             {% endif %}
