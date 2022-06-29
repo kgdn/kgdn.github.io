@@ -11,3 +11,8 @@ You can contact me on the following channels:
 - Email: [kjg2000@hw.ac.uk](mailto:kjg2000@hw.ac.uk) ([PGP Key](kjg-gpg.txt))
 - Matrix: [@kgdn28:fedora.im](https://matrix.to/#/@kgdn28:fedora.im)
 - Mastodon: [@kgdn@mastodon.social](https://mastodon.social/web/@kgdn)
+
+## Disclaimer
+This website is not affiliated with or endorsed by the Heriot-Watt University, nor is it associated with any of the organisations or movements linked in the footer.
+
+This website collects anonymised analytics through [GoatCounter](https://www.goatcounter.com/).

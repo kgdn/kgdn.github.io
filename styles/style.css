@@ -75,6 +75,10 @@ footer {
   text-align: center;
 }
 
+footer h5 {
+  text-align: left;
+}
+
 .nopoint {
   list-style-type: none;
   padding: 0;
