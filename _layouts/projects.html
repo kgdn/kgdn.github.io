@@ -7,7 +7,11 @@ layout: default
     <li>
         <a href="{{ repository.html_url }}" title="{{ repository.name }}"><b>{{ repository.name }}</b></a>
         <div>
-            <span>{{ repository.language }} - {{ repository.license.name }}</span>
+            {% if repository.license %}
+                <span>{{ repository.language }} - {{ repository.license.name }}</span>
+            {% else %}
+                <span>{{ repository.language }} - No license</span>
+            {% endif %}
         </div>
     </li>
     <p>{{ repository.description }}</p>
