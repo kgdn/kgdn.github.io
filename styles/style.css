@@ -87,6 +87,11 @@ footer h5 {
   color: gray;
 }
 
+.nopoint .fork {
+  color: gray;
+  font-size: small;
+}
+
 .post-nav {
   display: block;
   width: auto;
