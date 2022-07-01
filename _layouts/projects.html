@@ -18,10 +18,8 @@ layout: default
             {% endif %}
         </div>
         {% if repository.fork %}
-            <div id="fork">
-                {% for parent in repository.parents %}
-                    <span>Forked from <a href="{{ parent.html_url }}" title="{{ parent.name }}">{{ parent.name }}</a></span>
-                {% endfor %}
+            <div>
+                <span>Forked from <a href="{{ repository.parent.html_url }}" title="{{ repository.parent.full_name }}">{{ repository.parent.full_name }}</a></span>
             </div>
         {% endif %}
     </li>
