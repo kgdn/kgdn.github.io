@@ -6,7 +6,7 @@ layout: default
     {% for repository in site.github.public_repositories %}
     <li>
         {% if repository.fork %}
-            <i class="fa-solid fa-code-branch"></i> <a href="{{ repository.html_url }}" title="{{ repository.name }}"><b>{{ repository.name }}</b></a>
+            <i class="fa-solid fa-code-branch"></i> - <a href="{{ repository.html_url }}" title="{{ repository.name }}"><b>{{ repository.name }}</b></a>
         {% else %}
             <a href="{{ repository.html_url }}" title="{{ repository.name }}"><b>{{ repository.name }}</b></a>
         {% endif %}
