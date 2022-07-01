@@ -17,11 +17,6 @@ layout: default
                 <span>{{ repository.language }} - No license</span>
             {% endif %}
         </div>
-        {% if repository.fork %}
-            <div>
-                <span>Forked from <a href="{{ repository.parent.html_url }}" title="{{ repository.parent.full_name }}">{{ repository.parent.full_name }}</a></span>
-            </div>
-        {% endif %}
     </li>
     {% if repository.description %}
         <p>{{ repository.description }}</p>
