@@ -7,4 +7,4 @@ Interested in seeing what projects I've worked on? You've come to the right plac
 
 Note(s): 
 - This only includes projects available on my GitHub profile at this moment in time.
-- <i class="far fa-code-branch"></i> indicates that the project is a fork of another project.
+- <i class="fas fa-code-branch"></i> indicates that the project is a fork of another project.
