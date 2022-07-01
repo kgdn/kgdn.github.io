@@ -10,12 +10,12 @@ layout: default
     {% if page.previous.url %}
       <a class="prev" href="{{page.previous.url}}">&laquo; {{page.previous.title}}</a>
     {% else %}
-      <p class="prev">Earliest article.</a>
+      <p class="prev">Earliest article.</p>
     {% endif %}
     {% if page.next.url %}
       <a class="next" href="{{page.next.url}}">{{page.next.title}} &raquo;</a>
     {% else %}
-      <p class="next">Latest article.</a>
+      <p class="next">Latest article.</p>
     {% endif %}
 </div>
 {% include utterances.html %}
