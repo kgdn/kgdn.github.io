@@ -72,6 +72,10 @@ nav a:hover {
 
 footer {
   margin: 0 auto;
+  text-align: center;
+}
+
+footer h5 {
   text-align: left;
 }
 
