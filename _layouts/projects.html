@@ -3,7 +3,7 @@ layout: default
 ---
 {{ content }}
 <ul class="nopoint">
-    {% for repository in site.github.public_repositories %}
+    {% for repository in site.github.repositories %}
     <li>
         {% if repository.fork %}
             <i class="fa-solid fa-code-branch"></i> <a href="{{ repository.html_url }}" title="{{ repository.name }}"><b>{{ repository.name }}</b></a>
