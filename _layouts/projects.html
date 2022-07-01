@@ -5,7 +5,11 @@ layout: default
 <ul class="nopoint">
     {% for repository in site.github.public_repositories %}
     <li>
-        <a href="{{ repository.html_url }}" title="{{ repository.name }}"><b>{{ repository.name }}</b></a>
+        {% if repository.fork %}
+            <i class="fa-solid fa-code-branch"></i> <a href="{{ repository.html_url }}" title="{{ repository.name }}"><b>{{ repository.name }}</b></a>
+        {% else %}
+            <a href="{{ repository.html_url }}" title="{{ repository.name }}"><b>{{ repository.name }}</b></a>
+        {% endif %}
         <div>
             {% if repository.license %}
                 <span>{{ repository.language }} - {{ repository.license.name }}</span>
