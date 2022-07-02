@@ -6,10 +6,6 @@ description: "What if I made another changelog post..."
 author: "Kieran Gordon"
 tags: ['Changelog']
 ---
-- [Dark Mode](#dark-mode)
-- [Python Blog Script](#python-blog-script)
-- [Blog Navbar](#blog-navbar)
-- [Conclusion](#conclusion)
 ## Dark Mode
 Wow, two posts in one day. Better yet, two changelog posts in one day. So anyway, I added a few new things! Most importantly, a functional dark/light mode switch! You'll notice up in the top right of the header, there's a button to toggle the dark/light mode. It looks like the little sun emoji. Go ahead, click it and see what happens! (You should already know what it does.) I made this using JavaScript as a way to learn the language and how the DOM works more in depth. Despite my GitHub README saying that my most used language is JavaScript, it's not. It's actually Go and Python. But anyway, I'm happy with what I made today.
 
