@@ -1,4 +1,4 @@
-# kgdn.github.io
+# kgdn.github.io - Kieran Gordon 
 [![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa]
 [![pages-build-deployment](https://github.com/kgdn/kgdn.github.io/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/kgdn/kgdn.github.io/actions/workflows/pages/pages-build-deployment)
 
