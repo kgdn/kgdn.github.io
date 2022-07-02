@@ -123,6 +123,11 @@ footer h5 {
   margin: -3px auto;
 }
 
+.paginate-links {
+  margin: 0 auto;
+  text-align: center;
+}
+
 @media screen and (max-width: 833px) {
   header h1 {
     float: none;

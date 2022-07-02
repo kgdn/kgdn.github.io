@@ -25,3 +25,13 @@ layout: default
     {% endif %}
     {% endfor %}
 </ul>
+<div class="paginate-links">
+   {%- for page in paginator.total_pages %}
+       {% if page == paginator.current_page %}
+           <span class="current">{{ page }}</span>
+       {% else %}
+           <a href="{{ paginator.url(page) }}">{{ page }}</a>
+       {% endif %}
+   {%- endfor %}
+</div>
+   
