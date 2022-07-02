@@ -1,13 +1,6 @@
 name: kgdn.github.io
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
-plugins:
-  - jekyll-feed
-  - jekyll-github-metadata
-  - jekyll-toc
-  - jekyll-target-blank
-  - jekyll-seo-tag
-  - jekyll-sitemap
 kramdown:
   math_engine: mathjax
   syntax_highlighter: rouge
