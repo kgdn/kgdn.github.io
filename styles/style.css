@@ -78,16 +78,16 @@ footer h5 {
   text-align: left;
 }
 
-.nopoint {
+.no-point {
   list-style-type: none;
   padding: 0;
 }
 
-.nopoint span {
+.no-point span {
   color: gray;
 }
 
-.nopoint .fork {
+.no-point .fork {
   color: gray;
   font-size: small;
 }
@@ -113,6 +113,14 @@ footer h5 {
 .post-nav .prev {
   float: left;
   text-align: left;
+}
+
+.icon {
+  display: block;
+  float: left;
+  width: 148px;
+  margin: 0 auto;
+  padding: 10px;
 }
 
 @media screen and (max-width: 833px) {
