@@ -118,9 +118,9 @@ footer h5 {
 .icon {
   display: block;
   float: left;
-  width: 148px;
-  margin: 0 auto;
-  padding: 10px;
+  height: 100px;
+  padding: 0 10px ;
+  margin: -3px auto;
 }
 
 @media screen and (max-width: 833px) {
