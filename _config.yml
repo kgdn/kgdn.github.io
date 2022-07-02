@@ -8,6 +8,7 @@ plugins:
   - jekyll-target-blank
   - jekyll-seo-tag
   - jekyll-sitemap
+  - jekyll-paginate
 kramdown:
   math_engine: mathjax
   syntax_highlighter: rouge
