@@ -5,6 +5,7 @@ date: "2022-06-13"
 description: "What if I made another changelog post..."
 author: "Kieran Gordon"
 tags: ['Changelog']
+toc: true
 ---
 
 ## Dark Mode
