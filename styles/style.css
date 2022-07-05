@@ -123,9 +123,8 @@ footer h5 {
   margin: -3px auto;
 }
 
-.paginate-links {
-  margin: 0 auto;
-  text-align: center;
+.utterances {
+  max-width: inherit;
 }
 
 @media screen and (max-width: 833px) {
