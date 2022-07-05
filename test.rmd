@@ -1,0 +1,31 @@
+---
+title: R Markdown Test
+description: R Markdown Test
+layout: default
+output: pdf_document
+---
+This is a test of R Markdown.
+
+\tableofcontents
+
+# This is an h1
+
+# This is an h2
+
+# This is an h3
+
+```{r}
+plot(1:10)
+```
+
+```{python}
+for i in range(100):
+    if (i % 3 == 0 and i % 5 == 0):
+        print("FizzBuzz")
+    elif (i % 3 == 0):
+        print("Fizz")
+    elif (i % 5 == 0):
+        print("Buzz")
+    else:
+        print(i)
+```
