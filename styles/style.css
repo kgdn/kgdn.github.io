@@ -115,14 +115,6 @@ footer h5 {
   text-align: left;
 }
 
-.icon {
-  display: block;
-  float: left;
-  height: 100px;
-  padding: 0 10px ;
-  margin: -3px auto;
-}
-
 @media screen and (max-width: 833px) {
   header h1 {
     float: none;
