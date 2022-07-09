@@ -10,6 +10,6 @@ I would have preferred to have self-hosted this blog, but I don't have the time,
 You can find the source code for this website [here](https://github.com/kgdn/kgdn.github.io). This website is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/).
 
 ## Disclaimer
-This website is not affiliated with or endorsed by Heriot-Watt University, nor is it associated with any of the organisations or movements linked in the footer.
+This website is not affiliated with or endorsed by any of the organisations or movements linked in the footer.
 
 This website collects anonymised analytics through [GoatCounter](https://www.goatcounter.com/).
