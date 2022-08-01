@@ -5,6 +5,7 @@ layout: default
 ---
 
 ### Technology
+
 - GNU/Linux
 - Fedora Linux
 - Free/Open Source Software
@@ -18,6 +19,7 @@ layout: default
 - Networking
 
 ### Music
+
 - MF Doom
 - Kanye West
 - Radiohead
