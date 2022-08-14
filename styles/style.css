@@ -1,25 +1,37 @@
+/* cantarell-thin */
 @font-face {
-  font-family: "Cantarell";
-  font-style: normal;
-  font-weight: 800;
-  src: local("Cantarell Extra Bold"), local("Cantarell-ExtraBold"), url(fonts/cantarell-extra-bold-latin.woff2) format("woff2");
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2212, U+2215;
+	font-family: Cantarell;
+	font-style: normal;
+	font-weight: 100;
+	src: local("Cantarell Thin"), local("Cantarell-Thin"), url(fonts/cantarell/cantarell-thin.woff2) format("woff2");
 }
-
+/* cantarell-regular */
 @font-face {
-  font-family: "Cantarell";
-  font-style: normal;
-  font-weight: 600;
-  src: local("Cantarell Bold"), local("Cantarell-Bold"), url(fonts/cantarell-bold-latin.woff2) format("woff2");
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2212, U+2215;
+	font-family: Cantarell;
+	font-style: normal;
+	font-weight: 400;
+	src: local("Cantarell Regular"), local("Cantarell-Regular"), url(fonts/cantarell/cantarell-regular.woff2) format("woff2");
 }
-
+/* cantarell-light */
 @font-face {
-  font-family: "Cantarell";
-  font-style: normal;
-  font-weight: 400;
-  src: local("Cantarell Regular"), local("Cantarell-Regular"), url(fonts/cantarell-regular-latin.woff2) format("woff2");
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2212, U+2215;
+	font-family: Cantarell;
+	font-style: normal;
+	font-weight: 300;
+	src: local("Cantarell Light"), local("Cantarell-Light"), url(fonts/cantarell/cantarell-light.woff2) format("woff2");
+}
+/* cantarell-extra-bold */
+@font-face {
+	font-family: Cantarell;
+	font-style: normal;
+	font-weight: 700;
+	src: local("Cantarell Extra Bold"), local("Cantarell-ExtraBold"), url(fonts/cantarell/cantarell-extra-bold.woff2) format("woff2");
+}
+/* cantarell-bold */
+@font-face {
+	font-family: Cantarell;
+	font-style: normal;
+	font-weight: 700;
+	src: local("Cantarell Bold"), local("Cantarell-Bold"), url(fonts/cantarell/cantarell-bold.woff2) format("woff2");
 }
 
 :root {
