@@ -11,9 +11,14 @@ I'm currently working on this site, but I'm not sure what I'll be putting here y
 The website was written using [Markdown](https://en.wikipedia.org/wiki/Markdown) and [Jekyll](https://jekyllrb.com/). This website is being hosted on [GitHub Pages](https://pages.github.com/). To actually make the website, I used Visual Studio Code with a few extensions.
 
 ## Tools of the Trade
-1. **Dell Inspiron 14 5491** **running Fedora Linux 36** (and Windows 11)
-2. **Visual Studio Code** (for everything else)
-3. **IntelliJ IDEA** (for Java)
+1. **Dell Inspiron 14 5491** **running Fedora Linux 36**
+2. **Visual Studio Code**
+3. **Neovim**
+4. **IntelliJ IDEA**
+
+## Contact
+You can contact me by email at [kjg2000@hw.ac.uk](mailto:kjg2000@hw.ac.uk).
+My PGP key is available [here](kgdn-pgp.txt).
 
 ## License
 This site is licensed under the [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/).
