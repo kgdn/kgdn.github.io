@@ -18,7 +18,7 @@ The website was written using [Markdown](https://en.wikipedia.org/wiki/Markdown)
 
 ## Contact
 You can contact me by email at [kjg2000@hw.ac.uk](mailto:kjg2000@hw.ac.uk).
-My GPP key is available [here](kgdn-gpg.txt).
+My GPG key is available [here](kgdn-gpg.txt).
 
 ## License
 This site is licensed under the [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/).
