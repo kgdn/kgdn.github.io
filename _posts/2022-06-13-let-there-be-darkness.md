@@ -5,6 +5,7 @@ date: "2022-06-13"
 description: "What if I made another changelog post..."
 author: "Kieran Gordon"
 tags: ["Changelog"]
+toc: true
 ---
 
 ## Dark Mode
@@ -13,7 +14,7 @@ Wow, two posts in one day. Better yet, two changelog posts in one day. So anyway
 
 ## Python Blog Script
 
-I also made a Python script that helps me in making new posts. It's called `py_post.py` and it's in the root folder. It's a simple script that asks you for the title, description, author and tags of the post and then creates a new post with that information. It's pretty simple, but it's a useful tool for me. It also automatically adds the date to the title, so I don't have to faff around with that anymore. Making a post was a very tedious task prior to this, but with this new script, it's a lot easier. This script is licensed under the GNU General Public License v3.0, so you can use it for your own blogs! You can find the script [here](https://github.com/kgdn/jekyll-blog-poster). Hopefully someone else will find it useful!
+I also made a Python script that helps me in making new posts. It's called <code>py_post.py</code> and it's in the root folder. It's a simple script that asks you for the title, description, author and tags of the post and then creates a new post with that information. It's pretty simple, but it's a useful tool for me. It also automatically adds the date to the title, so I don't have to faff around with that anymore. Making a post was a very tedious task prior to this, but with this new script, it's a lot easier. This script is licensed under the GNU General Public License v3.0, so you can use it for your own blogs! You can find the script [here](https://github.com/kgdn/jekyll-blog-poster). Hopefully someone else will find it useful!
 
 ## Blog Navbar
 

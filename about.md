@@ -22,4 +22,4 @@ My GPG key is available [here](kgdn-gpg.txt).
 
 ## License
 This site is licensed under the [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/).
-Most of my software is licensed under the [GNU GPL v3](https://www.gnu.org/licenses/gpl-3.0.en.html).
+Most of my software is licensed under the [GNU GPL v3](https://www.gnu.org/licenses/gpl-3.0.en.html) license. 

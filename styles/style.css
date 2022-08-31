@@ -37,39 +37,44 @@
 :root {
   --black: #000;
   --white: #fff;
-  --gray-dark: #111111;
+  --gray-dark: #242424;
   --red: #ff0000;
   --blue: #0000ee;
 }
 
 body {
-  margin: 0 auto;
-  max-width: 833px;
   font-family: "Cantarell";
   background-color: var(--bg);
   color: var(--text);
-}
-
-.light {
-  --bg: var(--white);
-  --text: var(--black);
+  margin: 0 auto;
   --link-color: var(--blue);
   --link-color-visited: var(--blue);
+  font-size: large;
 }
 
-.dark {
-  --bg: var(--gray-dark);
-  --text: var(--white);
-  --link-color: var(--red);
-  --link-color-visited: var(--red);
+header {
+  background: linear-gradient(90deg, #252c5f 0%, #384681 100%);
+  padding: 1em;
+  color: white;
+  font-weight: bold;
+}
+
+footer {
+  font-weight: bold;
+}
+
+nav {
+  max-width: 833px;
+  margin: 0 auto;
+}
+
+.container {
+  max-width: 833px;
+  margin: 0 auto;
 }
 
 body a {
   color: var(--link-color);
-}
-
-a:visited {
-  color: var(--link-color-visited);
 }
 
 nav {
@@ -88,21 +93,17 @@ nav h1 {
   margin: auto;
 }
 
-nav a:link {
+header nav a:link {
   text-decoration: none;
   color: var(--text-color);
 }
 
-nav a:visited {
+header nav a:visited {
   color: var(--text-color);
 }
 
-nav a:hover {
+header nav a:hover {
   text-decoration: underline;
-}
-
-#theme-switcher {
-  font-size: large;
 }
 
 footer {
@@ -115,10 +116,32 @@ footer h5 {
 }
 
 blockquote {
-  font-style: italic;
-  border-left: 4px solid #888888;
-  margin-left: 4px;
-  padding-left: 24px;
+  border-left: 3px solid grey;
+  padding-left: 0.5em;
+  margin-left: auto;
+}
+
+.rouge-table {
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  padding: 1em;
+  width: 100%;
+}
+
+table .rouge-gutter {
+  width: 1em;
+  text-align: right;
+}
+
+pre .lineno {
+  color: #999;
+}
+
+.light {
+  background-color: #f6f8fa;
+  padding: 1em;
+  border-radius: 3px;
+  border: 3px #ddd solid;
 }
 
 .no-point {
@@ -127,7 +150,7 @@ blockquote {
 }
 
 .no-point span {
-  color: gray;
+  color: grey;
 }
 
 .no-point .fork {
@@ -158,10 +181,20 @@ blockquote {
   text-align: left;
 }
 
+@media screen and (prefers-color-scheme: dark) {
+  body {
+    --bg: var(--gray-dark);
+    --text: var(--white);
+    --link-color: var(--red);
+    --link-color-visited: var(--red);
+  }
+}
+
 @media screen and (max-width: 833px) {
   header h1 {
     float: none;
     margin: 0 auto;
+    padding: 0;
   }
 
   nav {
@@ -169,7 +202,7 @@ blockquote {
     text-align: center;
   }
 
-  body {
+  .container {
     padding: 0 10px;
   }
 }
