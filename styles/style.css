@@ -114,6 +114,13 @@ footer h5 {
   text-align: left;
 }
 
+blockquote {
+  font-style: italic;
+  border-left: 4px solid #888888;
+  margin-left: 4px;
+  padding-left: 24px;
+}
+
 .no-point {
   list-style-type: none;
   padding: 0;
