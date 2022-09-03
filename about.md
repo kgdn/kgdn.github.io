@@ -3,7 +3,7 @@ title: About
 description: "Welcome to my about page!"
 layout: default
 ---
-Hi, I'm Kieran. I'm a CS student studying in Edinburgh, Scotland. I made this blog as a way to share my thoughts and experiences with others. I hope you enjoy it! If you're at all interested, you can see what kind of things I'm interested in by visiting [Interests](interests.md).
+Hi, I'm Kieran. I'm a CS student studying in Edinburgh, Scotland. I made this blog as a way to share my thoughts and experiences with others. I hope you enjoy it! If you're at all interested, you can see what kind of things I'm interested in by visiting [Interests](/interests).
 ## What will be on this site?
 I'm currently working on this site, but I'm not sure what I'll be putting here yet. Generally speaking, I'll probably talk about random things, including GNU/Linux, programming, my hobbies, my thoughts and feelings about life, the world and politics. You know... the usual stuff teenagers talk about.
 

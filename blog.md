@@ -7,5 +7,5 @@ This page here is dedicated to a list of my writeups, including articles, blog p
 
 If for whatever reason you want to keep up to date with the latest posts, you can subscribe to the [<i class="fa-solid fa-square-rss"></i> RSS feed here](/feed.xml).
 
-Overwhelmed by the amount of posts? You can also sort by tag [here](/tags.md).
+Overwhelmed by the amount of posts? You can also sort by tag [here](/tags).
 

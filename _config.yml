@@ -8,9 +8,8 @@ plugins:
   - jekyll-target-blank
   - jekyll-seo-tag
   - jekyll-sitemap
+  - jekyll-toc
   
 kramdown:
   math_engine: mathjax
   input: GFM
-  syntax_highlighter_opts:
-    line_numbers: true

@@ -4,13 +4,18 @@ layout: default
 {{ content }}
 <ul class="no-point">
     {% for post in site.posts %}
-    <li>
-        <a href="{{ post.url }}" title="{{ post.title }}"><b>{{
-                post.title }}</b></a>
-        <div>
-            <span>{{ post.author}} - {{ post.date | date_to_string }}</span>
-        </div>
-    </li>
-    <p>{{ post.description }}</p>
+    <div class="post-container">
+        <li>
+            <a href="{{ post.url }}" title="{{ post.title }}"><b>{{ post.title }}</b></a>
+            <div>
+                <span>{{ post.author}} - {{ post.date | date_to_string }}</span>
+            </div>
+        </li>
+        {% if post.description %}
+        <p>{{ post.description }}</p>
+        {% else %}
+        <p>No description.</p>
+        {% endif %}
+    </div>
     {% endfor %}
 </ul>

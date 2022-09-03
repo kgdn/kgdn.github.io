@@ -4,25 +4,27 @@ layout: default
 {{ content }}
 <ul class="no-point">
     {% for repository in site.github.public_repositories %}
-    <li>
-        {% if repository.fork %}
-        <i class="fa-solid fa-code-branch"></i> - <a href="{{ repository.html_url }}"
-            title="{{ repository.name }}"><b>{{ repository.name }}</b></a>
-        {% else %}
-        <a href="{{ repository.html_url }}" title="{{ repository.name }}"><b>{{ repository.name }}</b></a>
-        {% endif %}
-        <div>
-            {% if repository.license %}
-            <span>{{ repository.language }} - {{ repository.license.name }}</span>
+    <div class="post-container">
+        <li>
+            {% if repository.fork %}
+            <i class="fa-solid fa-code-branch"></i> - <a href="{{ repository.html_url }}"
+                title="{{ repository.name }}"><b>{{ repository.name }}</b></a>
             {% else %}
-            <span>{{ repository.language }} - No license</span>
+            <a href="{{ repository.html_url }}" title="{{ repository.name }}"><b>{{ repository.name }}</b></a>
             {% endif %}
-        </div>
-    </li>
-    {% if repository.description %}
-    <p>{{ repository.description }}</p>
-    {% else %}
-    <p>No description.</p>
-    {% endif %}
+            <div>
+                {% if repository.license %}
+                <span>{{ repository.language }} - {{ repository.license.name }}</span>
+                {% else %}
+                <span>{{ repository.language }} - No license</span>
+                {% endif %}
+            </div>
+        </li>
+        {% if repository.description %}
+        <p>{{ repository.description }}</p>
+        {% else %}
+        <p>No description.</p>
+        {% endif %}
+    </div>
     {% endfor %}
 </ul>
