@@ -41,9 +41,11 @@
 :root {
   --black: #000;
   --white: #fff;
+  --grey: #353535;
   --dark-grey: #242424;
   --red: #ff0000;
   --blue: #0000ee;
+  --link: #3d719f;
 }
 
 body {
@@ -51,8 +53,8 @@ body {
   background-color: var(--bg);
   color: var(--text);
   margin: 0 auto;
-  --link-color: var(--blue);
-  --link-color-visited: var(--blue);
+  --link-color: var(--link);
+  --link-color-visited: var(--link);
   font-size: large;
 }
 
@@ -195,6 +197,11 @@ body a {
 
 /* Base16 Light Mode */
 @media screen and (prefers-color-scheme: light) {
+
+  body {
+    --text: var(--grey);
+  }
+
   .highlight table td {
     padding: 5px;
   }
@@ -340,8 +347,6 @@ body a {
   body {
     --bg: var(--dark-grey);
     --text: var(--white);
-    --link-color: var(--red);
-    --link-color-visited: var(--red);
   }
 
   .highlight {
@@ -355,7 +360,7 @@ body a {
     border-radius: 5px;
     margin: 1em 0;
     padding: 1em;
-    background-color: #0a0a0a;
+    background-color:  #0a0a0a;
     border: 1px solid #222;
   }
 
