@@ -4,8 +4,8 @@ layout: default
 {{ content }}
 <ul class="post-list">
     {% for repository in site.github.public_repositories %}
-    <a href="{{ post.url }}">
-        <div class="post-container" href="{{ post.url}}">
+    <a href="{{ repository.html_url }}">
+        <div class="post-container" href="{{ repository.html_url }}">
             <li>
                 {% if repository.fork %}
                 <i class="fa-solid fa-code-branch"></i> - <b>{{ repository.name }}</b>
