@@ -2,20 +2,22 @@
 layout: default
 ---
 {{ content }}
-<ul class="no-point">
+<ul class="post-list">
     {% for post in site.posts %}
-    <div class="post-container">
-        <li>
-            <a href="{{ post.url }}" title="{{ post.title }}"><b>{{ post.title }}</b></a>
-            <div>
-                <span>{{ post.author}} - {{ post.date | date_to_string }}</span>
-            </div>
-        </li>
-        {% if post.description %}
-        <p>{{ post.description }}</p>
-        {% else %}
-        <p>No description.</p>
-        {% endif %}
-    </div>
+    <a href="{{ post.url }}">
+        <div class="post-container" href="{{ post.url }}">
+            <li>
+                <b>{{ post.title}}</b>
+                <div>
+                    <span>{{ post.author}} - {{ post.date | date_to_string }}</span>
+                </div>
+            </li>
+            {% if post.description %}
+            <p>{{ post.description }}</p>
+            {% else %}
+            <p>No description.</p>
+            {% endif %}
+        </div>
+    </a>
     {% endfor %}
 </ul>
