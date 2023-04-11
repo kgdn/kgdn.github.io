@@ -9,7 +9,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-toc
-  
+
 kramdown:
   math_engine: mathjax
   input: GFM

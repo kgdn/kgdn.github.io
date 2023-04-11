@@ -15,6 +15,12 @@ layout: default
                 <div>
                     {% if repository.license %}
                     <span>{{ repository.language }} - {{ repository.license.name }}</span>
+                    <span class="stars">
+                        <i class="fa-solid fa-star"></i> {{ repository.stargazers_count }}
+                    </span>
+                    <span class="forks">
+                        <i class="fa-solid fa-code-branch"></i> {{ repository.forks_count }}
+                    </span>
                     {% else %}
                     <span>{{ repository.language }} - No license</span>
                     {% endif %}
