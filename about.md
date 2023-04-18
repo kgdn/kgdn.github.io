@@ -16,14 +16,14 @@ The website was written using [Markdown](https://en.wikipedia.org/wiki/Markdown)
 
 ## Tools of the Trade
 
-1. **Dell Inspiron 14 5491** **running Fedora Linux 36**
+1. **Dell Inspiron 14 5491** **running Fedora Linux 37**
 2. **Visual Studio Code**
 3. **Neovim**
 4. **IntelliJ IDEA**
 
 ## Contact
 
-You can contact me by email at [kjg2000@hw.ac.uk](mailto:kjg2000@hw.ac.uk).
+You can contact me by email at kjg2000 [at] hw.ac.uk.
 My GPG key is available [here](kgdn-gpg.txt).
 
 ## License
