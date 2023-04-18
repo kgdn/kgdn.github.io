@@ -16,10 +16,9 @@ The website was written using [Markdown](https://en.wikipedia.org/wiki/Markdown)
 
 ## Tools of the Trade
 
-1. **Dell Inspiron 14 5491** **running Fedora Linux 37**
+1. **Dell Inspiron 14 5491** **running Fedora Linux 38**
 2. **Visual Studio Code**
-3. **Neovim**
-4. **IntelliJ IDEA**
+3. **IntelliJ IDEA**
 
 ## Contact
 
