@@ -1,5 +1,5 @@
 ---
-title: kgdn
+title: Hi, I'm Kieran.
 description: Welcome to the front page of my GitHub blog!
 layout: home
 ---
